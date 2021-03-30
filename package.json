@@ -1,0 +1,38 @@
+{
+    "name": "sdl-mt-cloud-action",
+    "version": "1.0.0",
+    "description": "SDL MT Cloud Action",
+    "main": "dist/index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "build": "ncc build src/index.js -o dist --source-map",
+        "test": "jest __tests__",
+        "all": "npm run lint && npm run build && npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cisti/sdl-mt-action.git"
+    },
+    "keywords": [
+        "GitHub",
+        "Actions",
+        "SDL",
+        "MT"
+    ],
+    "author": "SDL plc",
+    "license": "-",
+    "bugs": {
+        "url": "https://github.com/cisti/sdl-mt-action/issues"
+    },
+    "homepage": "https://github.com/cisti/sdl-mt-action#readme",
+    "dependencies": {
+        "@actions/core": "^1.2.6",
+        "axios": "^0.19.2",
+        "mime-types": "^2.1.28"
+    },
+    "devDependencies": {
+        "@zeit/ncc": "^0.22.3",
+        "eslint": "^7.8.1",
+        "jest": "^26.4.2"
+    }
+}

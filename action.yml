@@ -1,0 +1,29 @@
+name: 'SDL MT Cloud'
+description: 'Reliable & secure cloud-based machine translation solution built using a modern micro-service architecture. '
+branding:
+    icon: globe
+    color: green
+inputs:
+    client-id:
+        description: 'The clientId associated with the account'
+        required: true
+        default: null
+    client-secret:
+        description: 'The client secret for the specified clientId'
+        required: true
+        default: null
+    source-path:
+        description: 'Path to the file or folder to translate'
+        required: true
+        default: null
+    target-languages:
+        description: 'Three letters language codes (separeted by a comma if more then one) of the target languages'
+        required: true
+        default: ''
+    translation-model:
+        description: 'The dictionary model used for specialized translations (if not present, the default generic model will be used)'
+        required: false
+        default: null
+runs:
+    using: 'node12'
+    main: 'dist/index.js'
