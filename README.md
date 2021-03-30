@@ -101,14 +101,13 @@ SDL MT Cloud
 
 ```yaml
 name: Resources - Machine Translation
-uses: ./.github/actions/sdl-mt-action
+uses: actions/sdl-mt-action
 with:
     client-id: ${{ secrets.BEGLOBAL_CLIENT_ID }}
     client-secret: ${{ secrets.BEGLOBAL_CLIENT_SECRET }}
-    source-file: '${{ env.WORKSPACE }}/src/MyConsoleApp/Resources/Resources.xml'
-    input-format: 'XML'
-    source-language: 'eng'
-    target-language: 'fra'
+    source-path: '${{ env.WORKSPACE }}/src/MyConsoleApp/Resources'
+    target-languages: 'fra,ger'
+    translation-model: null
 ```
 
 See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
