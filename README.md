@@ -1,5 +1,22 @@
 # RWS LanguageWeaver Cloud GitHub Action
 
+## RWS Language Weaver Translation 
+
+Fast, secure, real-time translation powered by Linguistic AI
+
+### Summary
+Machine Translation is a key enabling technology that allows businesses and customers to communicate in real time, without language barriers. The RWS Language Weaver Translation app for ServiceNow is built on state-of-the-art proprietary AI-technology that detects and translates text in any language or format. Language Weaver supports seamless dynamic translation of knowledge base content, chats, incident tickets, and other snippets text input, directly within your instance. All translations are carried out securely and in a matter of seconds, allowing you to focus the task at hand without worrying about language.
+
+Language Weaver can be deployed as a secure cloud solution via our Language Weaver Cloud offering, or on-premise behind your firewall with our Language Weaver Edge offering.
+
+## Registration
+
+To enable administrators more finite insight into usage information SDL Machine Translation Cloud provides two authentication methods via the REST API: Client ID with Secret AND Username with Password.
+
+Both authentication methods are compliant with OAuth2 industry standards. Using one of the two authentication options or both depends on the workflow that you are integrating Machine Translation (MT) into.
+
+Use https://www.rws.com/translation/language-weaver/ to register and obtain your clientId and clientCecret.
+
 ## Usage
 
 ```yaml
