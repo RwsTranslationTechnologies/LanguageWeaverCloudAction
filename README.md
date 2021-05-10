@@ -20,7 +20,7 @@ Use https://www.rws.com/translation/language-weaver/ to register and obtain your
 
 ```yaml
 name: Resources - LanguageWeaver Cloud Machine Translation
-uses: RwsTranslationTechnologies/mtactions@v1.0.0
+uses: RwsTranslationTechnologies/LanguageWeaverCloudAction@v1.0.0
 with:
     client-id: ${{ secrets.CLIENT_ID }}
     client-secret: ${{ secrets.CLIENT_SECRET }}
