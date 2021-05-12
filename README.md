@@ -1,4 +1,4 @@
-# RWS LanguageWeaver Cloud GitHub Action
+# RWS LanguageWeaver GitHub Action
 
 ## RWS Language Weaver Translation 
 
@@ -19,7 +19,7 @@ Use https://www.rws.com/translation/language-weaver/ to register and obtain your
 ## Usage
 
 ```yaml
-name: Resources - LanguageWeaver Cloud Machine Translation
+name: Resources - LanguageWeaver Machine Translation
 uses: RwsTranslationTechnologies/LanguageWeaverCloudAction@v1.0.0
 with:
     client-id: ${{ secrets.CLIENT_ID }}
